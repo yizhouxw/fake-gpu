@@ -1,0 +1,79 @@
+README.md
+  s_2b81159d542f9d::t_1024de35252f61 17-18
+charts/fake-gpu/templates/configmap.yaml
+  s_2b81159d542f9d::t_1797580039b538 7
+entrypoint.sh
+  s_2b81159d542f9d::t_1797580039b538 9,11,67-78,80-86,95,99-101
+  s_2b81159d542f9d::t_065a36b397aafc 52
+  s_2b81159d542f9d::t_3df754f68e4400 4-8,41-42,51
+  s_2b81159d542f9d::t_768f4987894fea 60-66,79,102,111-112
+Dockerfile
+  s_2b81159d542f9d::t_1797580039b538 1,3-4,6,9-10,12-15
+  s_2b81159d542f9d::t_3b28895bca6926 7
+tests/cli_smoke.py
+  s_2b81159d542f9d::t_3df754f68e4400 1-42
+docs/cpu-kubernetes-nodes.md
+  s_2b81159d542f9d::t_1024de35252f61 1-72,74-84
+  s_2b81159d542f9d::t_05841d6384517b 73
+charts/fake-gpu/values.yaml
+  s_2b81159d542f9d::t_1797580039b538 98-104
+pkg/nvidia/common/gpu.go
+  s_2b81159d542f9d::t_fb6775802418af 29
+  s_2b81159d542f9d::t_d73089eb9d7f80 28,30
+charts/fake-gpu/templates/daemonset.yaml
+  s_2b81159d542f9d::t_1797580039b538 60-62,82-84,104-106
+  s_2b81159d542f9d::t_40de79479ad1fb 107
+.github/workflows/publish-images.yaml
+  s_2b81159d542f9d::t_1024de35252f61 31
+.github/workflows/test.yaml
+  s_2b81159d542f9d::t_1024de35252f61 1-16
+Makefile
+  s_2b81159d542f9d::t_c5845e7e3271dd 73
+  s_2b81159d542f9d::t_d2af53e8767d92 60,74-75
+.dockerignore
+  s_2b81159d542f9d::t_1797580039b538 1-4
+src/nvml/nvml_hook.cpp
+  s_2b81159d542f9d::t_fb6775802418af 967-970,1973-1974
+  s_2b81159d542f9d::t_e8995c2b7a35d9 541-544
+pkg/nvidia/query/query.go
+  s_2b81159d542f9d::t_fb6775802418af 4,6-7,14-20,22-25,28-88,92-110,112-113,115,117,121,123-128,130,132,134-144,146,148-149,151-155,157,159,161-173,175,177-184,187-208,210-213,215
+  s_2b81159d542f9d::t_a24d1c06fa743f 91,145,156,209
+pkg/nvidia/query/query_test.go
+  s_2b81159d542f9d::t_1797580039b538 1-7,9-15,17-35,37-50,52-70
+  s_2b81159d542f9d::t_80ee1627a606d8 8,16,36,51
+charts/fake-gpu/default-config.yaml
+  s_2b81159d542f9d::t_1797580039b538 1-321
+CMakeLists.txt
+  s_2b81159d542f9d::t_59e6e9f43d5644 35-37,46,62,67
+  s_2b81159d542f9d::t_fb6775802418af 34,47
+pkg/nvidia/root.go
+  s_2b81159d542f9d::t_fb6775802418af 24,225-228
+cmd/prepare-config/main.go
+  s_2b81159d542f9d::t_5f9d3f5529a93c 1-45
+docs/validation-20261116.md
+  s_2b81159d542f9d::t_c744345e48a0c6 1-46
+pkg/config/prepare.go
+  s_2b81159d542f9d::t_e545e5cfe13774 1-39
+pkg/config/prepare_test.go
+  s_2b81159d542f9d::t_4b2062a2e48f5f 1-44
+src/common/common.h
+  s_2b81159d542f9d::t_91157b33c0329f 16
+src/nvml/nvml_subset.h
+  s_2b81159d542f9d::t_7ea58052470a98 71-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ce30e98fc2fb30e61e4d9f823ac0518dd3d8f9db",
+  "prompts": {},
+  "sessions": {
+    "s_2b81159d542f9d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e376-487e-7813-bf09-82f77c0ef1bc",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yizhou.xw <yizhou.xw@oceanbase.com>"
+    }
+  }
+}
