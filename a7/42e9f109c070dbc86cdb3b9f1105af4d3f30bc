@@ -1,0 +1,19 @@
+charts/fake-gpu/default-config.yaml
+  s_2b81159d542f9d::t_c2de7b49b283ee 6,114,194,274,321
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a742e9f109c070dbc86cdb3b9f1105af4d3f30bc",
+  "prompts": {},
+  "sessions": {
+    "s_2b81159d542f9d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1e376-487e-7813-bf09-82f77c0ef1bc",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yizhou.xw <yizhou.xw@oceanbase.com>"
+    }
+  }
+}
